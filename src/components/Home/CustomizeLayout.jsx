@@ -6,6 +6,13 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import Custom_Number from './Custom_Number';
 import ktmdecor from '/img/home/logo.png'
 import { IoIosCall } from "react-icons/io";
+import { Link } from 'react-router-dom';
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import { CiTwitter } from "react-icons/ci";
+import { MdOutlineEmail } from "react-icons/md";
+
+
 
 
 const CustomizeLayout = () => {
@@ -103,15 +110,22 @@ const CustomizeLayout = () => {
                                 <div className="flex gap-2 items-center my-3">
                                     <div className='p-2 rounded-2xl bg-white'>
                                     <IoIosCall className='text-red-500' />
-
-
                                     </div>
+
                                     <p className='font-aileron text-white font-normal text-[16px]'>+977-9845956700 | +977-9845926945</p>
-
-
 
                                 </div>
 
+                                <ul className='flex text-white text-[25px] gap-2'>
+                                    <li><Link><FaFacebook /></Link></li>
+                                    <li><Link><FaInstagram /></Link></li>
+                                    <li><Link><CiTwitter /></Link></li>
+                                    <li><Link><MdOutlineEmail /></Link></li>
+
+
+                                </ul>
+
+                                
 
                             </div>
 

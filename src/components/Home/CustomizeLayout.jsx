@@ -38,10 +38,30 @@ const CustomizeLayout = () => {
 
                                     </div>
 
-                                    <p className='border-b-2 py-2'>Choose Assets</p>
-                                    
+                                    <p className='border-b-2 py-2 font-aileron'>Choose Assets</p>
 
-                                    <div className="flex">
+
+                                    <div className="flex flex-col py-3">
+
+                                        <div className="flex gap-3 font-aileron py-3">
+                                            <p className='text-[#FF904E] bg-white px-[6px] py-[2px] rounded-xl text-[16px] bold'>01</p>
+                                            <p className='text-[14px] '>Select your font</p>
+                                        </div>
+
+                                        <div className="flex gap-3 font-aileron py-3">
+                                            <p className='text-[#FF904E] bg-white px-[6px] py-[2px] rounded-xl text-[16px] bold'>02</p>
+                                            <p className='text-[14px] '>Type your text</p>
+                                        </div>
+
+                                        <div className="flex gap-3 font-aileron py-3">
+                                            <p className='text-[#FF904E] bg-white px-[6px] py-[2px] rounded-xl text-[16px] bold'>03</p>
+                                            <p className='text-[14px] '>Mix your colours</p>
+                                        </div>
+
+                                        <div className="flex gap-3 font-aileron py-3">
+                                            <p className='text-[#FF904E] bg-white px-[6px] py-[2px] rounded-xl text-[16px] bold'>04</p>
+                                            <p className='text-[14px] '>Create your design</p>
+                                        </div>
 
 
                                     </div>

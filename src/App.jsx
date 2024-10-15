@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './components/pages/Home'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+
 const App = () => (
   <>
 

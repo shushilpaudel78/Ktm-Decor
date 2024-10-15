@@ -1,10 +1,10 @@
 import React from 'react'
-import Nav from '../Nav'
-
+import CustomizeLayout from '../Home/CustomizeLayout'
 const Home = () => {
   return (
     <>
-    <Nav />
+
+    <CustomizeLayout />
   
     </>
   )

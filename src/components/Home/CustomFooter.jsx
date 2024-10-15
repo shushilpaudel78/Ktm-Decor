@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const CustomFooter = () => {
     return (
@@ -9,24 +10,34 @@ const CustomFooter = () => {
 
                     <div className="flex text-white ">
 
-                        <div className="w-1/3 border-r-white border-r-[2px] px-2">
-                            <p>2024 Ktm Decor. All rights reserved. </p>
+                        <div className="w-1/3 border-r-[#FF904E] border-r-[2px] px-2">
+                        
+                            <div className="flex justify-center  font-aileron text-[14px] font-normal">
+                                <p>2024 Ktm Decor. All rights reserved. </p>
+
+
+                            </div>
+
 
                         </div>
 
-                        <div className="w-1/3 border-r-white border-r-[2px] px-2">
-                        <div className="flex gap-4 font-aileron text-[14px] font-normal">
-                            <p>Privacy Policy</p>
-                            <p>Refund Policy</p>
-                            <p>Shipping Policy</p>
-                        </div>
+                        <div className="w-1/3 border-r-[#FF904E] border-r-[2px] px-2">
+                            <div className="flex gap-4 font-aileron text-[14px] font-normal justify-center">
+                                <Link>Privacy Policy</Link>
+                                <Link>Refund Policy</Link>
+                                <Link>Shipping Policy</Link>
+                            </div>
 
 
                         </div>
 
                         <div className="w-1/3 px-2">
+                            <div className="flex justify-center  font-aileron text-[14px] font-normal">
+                                <p>Powered by MarginTop Solutions</p>
 
-                            <p>Powered by MarginTop Solutions</p>
+
+                            </div>
+
 
                         </div>
 

@@ -1,17 +1,19 @@
 import React from 'react'
 import CustomizeNav from './CustomizeNav'
 import twofingure from '/img/home/two_fingure.png'
-import { CiSearch } from "react-icons/ci";
-import { FaArrowRightLong } from "react-icons/fa6";
+import CustomFooter from './CustomFooter';
 import Custom_Number from './Custom_Number';
 import ktmdecor from '/img/home/logo.png'
+
+import { CiSearch } from "react-icons/ci";
+import { FaArrowRightLong } from "react-icons/fa6";
 import { IoIosCall } from "react-icons/io";
 import { Link } from 'react-router-dom';
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { CiTwitter } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
-import CustomFooter from './CustomFooter';
+
 
 
 
@@ -29,11 +31,11 @@ const CustomizeLayout = () => {
 
 
                         <div className="flex items-center flex-col text-[#FFFFFF] font-aileron">
-                            <div className='relative'>
-                                <div className="absolute w-[10px] h-[40px] bg-[#FF904E] top-[91px] left-[199px]"></div>
-                                <h1 className='text-[80px]  font-bold w-[50%] leading-[88px] text-center text-white'>customize your Ideas</h1>
+                            <div className='relative flex flex-col '>
+                                <div className="absolute w-[10px] h-[40px] bg-[#FF904E] top-[91px] left-[265px]"></div>
+                                <h1 className='text-[80px]  font-bold w-[90%] leading-[88px] text-center text-white'>customize your Ideas</h1>
                             </div>
-                            <p className='font-aileron w-[50%] text-[16px] text-[#FFFFFFD9] py-4' >Custom neon LED stickers bring your unique designs to life, adding style and energy-efficient lighting.</p>
+                            <p className='font-aileron w-[52%] text-[16px] text-[#FFFFFFD9] py-6' >Custom neon LED stickers bring your unique designs to life, adding style and energy-efficient lighting.</p>
 
                         </div>
 
@@ -43,8 +45,8 @@ const CustomizeLayout = () => {
 
 
                             <div className="w-[75%]">
-                                <div className="w-full h-[432px]">
-                                    <img src={twofingure} alt="image" className='w-full h-full object-cover' />
+                                <div className="w-full h-[678px]">
+                                    <img src={twofingure} alt="image" className='w-full h-full object-fill' />
 
                                 </div>
                             </div>

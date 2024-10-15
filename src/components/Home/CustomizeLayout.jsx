@@ -11,6 +11,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { CiTwitter } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
+import CustomFooter from './CustomFooter';
 
 
 
@@ -146,6 +147,13 @@ const CustomizeLayout = () => {
                 </div>
 
             </div>
+
+
+
+            <CustomFooter />
+
+
+
 
 
 

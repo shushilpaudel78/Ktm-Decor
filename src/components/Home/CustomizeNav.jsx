@@ -1,5 +1,6 @@
 import React from 'react'
 import warrenty from '/img/home/warranty.png'
+import CustomNavLink from './CustomNavLink'
 
 const CustomizeNav = () => {
   return (
@@ -13,45 +14,12 @@ const CustomizeNav = () => {
 
                 <ul className='flex justify-end  text-[#FFFFFF] '>
 
-                    <li className='flex font-aileron  flex-row items-center bg-[#282c3c]  px-4 py-3 gap-3 rounded-l-[100px] pt-5'>
-                        <div className="w-[25px] h-[25px]"><img src={warrenty} alt="" className='w-full h-full object-contain' /></div>
-                        <p >Custom Design</p>
-
-                    </li>
-
-                    <li className='flex font-aileron  bg-[#282c3c]  px-4 py-3 gap-3 pt-5'>
-                        <div className="w-[25px] h-[25px]"><img src={warrenty} alt="" className='w-full h-full object-contain' /></div>
-                        <p >Cost Effective</p>
-
-                    </li>
-
-                    <li className='flex font-aileron  bg-[#282c3c]  px-4 py-3 gap-3 pt-5'>
-                        <div className="w-[25px] h-[25px]"><img src={warrenty} alt="" className='w-full h-full object-contain' /></div>
-                        <p >Durability</p>
-
-                    </li>
-
-                    <li className='flex font-aileron  bg-[#282c3c]  px-4 py-3 gap-3 pt-5'>
-                        <div className="w-[25px] h-[25px]"><img src={warrenty} alt="" className='w-full h-full object-contain' /></div>
-                        <p >Warrenty</p>
-
-                    </li>
-                    
-                    <li className='flex font-aileron  bg-[#282c3c]  px-4 py-3 gap-3 pt-5'>
-                        <div className="w-[25px] h-[25px]"><img src={warrenty} alt="" className='w-full h-full object-contain' /></div>
-                        <p >Wash Proof</p>
-
-                    </li>
-
-                    <li className='flex font-aileron  bg-[#282c3c]  px-4 py-3 gap-3 pt-5'>
-                        <div className="w-[25px] h-[25px]"><img src={warrenty} alt="" className='w-full h-full object-contain' /></div>
-                        <p >Easy Install</p>
-
-                    </li>
-                    
-                    
-                    
-
+                    <CustomNavLink name='Custom Design' />
+                    <CustomNavLink name='Cost Effective' />
+                    <CustomNavLink name='Durability' />
+                    <CustomNavLink name='Wash Proof' />
+                    <CustomNavLink name='Easy Install' />
+                    <CustomNavLink name='Warrenty' />
 
                 </ul>
 

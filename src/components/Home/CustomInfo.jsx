@@ -15,15 +15,15 @@ const CustomInfo = () => {
                 <div className="max-w-[1200px] m-auto ">
 
 
-                    <div className="w-full h-auto py-4">
+                    <div className="w-full h-auto py-[120px] ">
 
 
-                        <div className="flex items-center flex-col py-6">
-                            <div className="w-[218px] h-[165px]">
+                        <div className="flex items-center flex-col py-6 ">
+                            <div className="w-[218px] h-[165px] my-4">
                                 <img src={ktmdecor} alt="img" className='w-full h-full object-cover' />
                             </div>
 
-                            <p className='text-white  text-center text-[16px] font-aileron font-medium w-[63%]'>Experience the perfect fusion of rustic charm, minimalist elegance, and modern craftsmanship with our
+                            <p className='text-white  text-center text-[16px] font-aileron font-normal w-[63%] py-2 leading-9'>Experience the perfect fusion of rustic charm, minimalist elegance, and modern craftsmanship with our
                                 LED neon lights. Designed to enhance any space, our neon lights blend traditional
                                 aesthetics with contemporary design, creating a striking balance of warmth and modernity.</p>
 
@@ -32,7 +32,7 @@ const CustomInfo = () => {
                                     <IoIosCall className='text-red-500' />
                                 </div>
 
-                                <p className='font-aileron text-white font-normal text-[16px]'>+977-9845956700 | +977-9845926945</p>
+                                <p className='font-aileron text-white font-normal text-[16px] py-3'>+977-9845956700 | +977-9845926945</p>
 
                             </div>
 

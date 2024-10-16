@@ -26,7 +26,7 @@ const CustomizeLayout = () => {
             <div className="w-full  h-auto bg-[#010619]">
 
 
-                <div className="w-full h-auto bg-[#151a2b]  py-8 rounded-b-[350px]">
+                <div className="w-full h-auto bg-[#151a2b]  py-8 rounded-b-[350px] ">
 
                     <div className="h-auto w-[1200px] m-auto">
 
@@ -35,16 +35,16 @@ const CustomizeLayout = () => {
 
                             <div className="flex items-center flex-col text-[#FFFFFF] font-aileron">
                                 <div className='relative flex flex-col '>
-                                    <div className="absolute w-[12px] h-[50px] bg-[#FF904E] top-[96px] left-[260px]"></div>
-                                    <h1 className='text-[80px]  font-bold w-[90%] leading-[88px] text-center text-white'>customize your Ideas</h1>
+                                    <div className="absolute w-[12px] h-[40px] bg-[#FF904E] top-[96px] left-[262px]"></div>
+                                    <h1 className='text-[80px]  font-bold w-[90%] leading-[88px] text-center text-white '>customize your Ideas</h1>
                                 </div>
-                                <p className='font-aileron w-[52%] text-[16px] text-[#FFFFFFD9] py-6' >Custom neon LED stickers bring your unique designs to life, adding style and energy-efficient lighting.</p>
+                                <p className='font-aileron w-[52%] text-[16px] text-[#FFFFFFD9] py-2' >Custom neon LED stickers bring your unique designs to life, adding style and energy-efficient lighting.</p>
 
                             </div>
 
 
 
-                            <div className="flex">
+                            <div className="flex mb-6">
 
 
                                 <div className="w-[75%]">
@@ -57,11 +57,11 @@ const CustomizeLayout = () => {
 
 
 
-                                <div className="w-[25%]  bg-gradient-to-b from-[#252939] to-[#151a2b] rounded-lg pt-4">
+                                <div className="w-[25%]  bg-gradient-to-b from-[#252939] to-[#151a2b] rounded-lg pt-4 rounded-b-[140px]">
                                     <div className="w-full h-auto text-[#FFFFFF]  px-[30px]">
 
                                         <p className=' font-aileron py-1 text-[20px] font-medium'>Customize Project</p>
-                                        <hr className='mb-4 border-t' />
+                                        <hr className='mb-4 border-t w-[80%]' />
                                         <div className="relative  flex justify-center py-3">
                                             <input type="text" placeholder='Search' className=' w-full h-full rounded-[20px] px-9 text-[#FFFFFF] bg-[#151a2b] border-2 py-[8px] font-aileron pr-7' />
                                             <CiSearch className='absolute left-3  top-5 text-[#FFFFFF] bold text-[20px]' />
@@ -70,7 +70,7 @@ const CustomizeLayout = () => {
                                         </div>
 
                                         <p className=' py-2 font-aileron'>Choose Assets</p>
-                                        <hr className='border-t' />
+                                        <hr className='border-t w-[70%]'  />
 
                                         <div className="flex flex-col py-3">
 
@@ -86,7 +86,7 @@ const CustomizeLayout = () => {
                             </div>
 
 
-                            <div className="flex justify-center my-3 font-aileron py-3 ">
+                            <div className="flex justify-center  mb-[-62px] font-aileron py-3 ">
 
                                 <CustimizeButton name="Customize Your Design" />
 
@@ -102,16 +102,8 @@ const CustomizeLayout = () => {
 
 
 
-
-
-
             <CustomInfo />
             <CustomFooter />
-
-
-
-
-
 
 
 

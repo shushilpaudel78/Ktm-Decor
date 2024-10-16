@@ -5,10 +5,10 @@ const CustomFooter = () => {
     return (
         <>
 
-            <div className="w-full h-auto bg-[#1f2435] py-4 px-[10px]">
+            <div className="w-full h-auto bg-[#1f2435] py-6 px-[10px]">
                 <div className="max-w-[1200px] m-auto">
 
-                    <div className="flex text-white ">
+                    <div className="flex text-white py-3 items-center ">
 
                         <div className="w-1/3 border-r-[#FF904E] border-r-[2px] px-2">
                         
@@ -22,7 +22,7 @@ const CustomFooter = () => {
                         </div>
 
                         <div className="w-1/3 border-r-[#FF904E] border-r-[2px] px-2">
-                            <div className="flex gap-4 font-aileron text-[14px] font-normal justify-center">
+                            <div className="flex gap-4 font-aileron text-[14px] font-normal justify-center items-center">
                                 <Link>Privacy Policy</Link>
                                 <Link>Refund Policy</Link>
                                 <Link>Shipping Policy</Link>

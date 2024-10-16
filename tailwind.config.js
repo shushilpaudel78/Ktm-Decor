@@ -7,10 +7,9 @@ module.exports = {
     extend: {
       fontFamily: {
         aileron: ['Aileron', 'sans-serif'],
-      },
-      fontFamily: {
         montecarlo: ['"MonteCarlo"', 'cursive'], // Adding MonteCarlo font
       },
+     
     },
   },
   plugins: [],

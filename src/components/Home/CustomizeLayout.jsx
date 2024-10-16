@@ -14,6 +14,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { CiTwitter } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
 import KtmHero from './KtmHero';
+import Partial_hero from './Partial_hero';
 
 
 
@@ -24,7 +25,11 @@ const CustomizeLayout = () => {
         <>
 
             <KtmHero />
+            <Partial_hero />
+
             <CustomizeNav />
+
+
 
             <div className="w-full h-auto bg-[#151a2b] py-8">
 
@@ -35,7 +40,7 @@ const CustomizeLayout = () => {
 
                         <div className="flex items-center flex-col text-[#FFFFFF] font-aileron">
                             <div className='relative flex flex-col '>
-                                <div className="absolute w-[10px] h-[40px] bg-[#FF904E] top-[91px] left-[265px]"></div>
+                                <div className="absolute w-[12px] h-[50px] bg-[#FF904E] top-[96px] left-[260px]"></div>
                                 <h1 className='text-[80px]  font-bold w-[90%] leading-[88px] text-center text-white'>customize your Ideas</h1>
                             </div>
                             <p className='font-aileron w-[52%] text-[16px] text-[#FFFFFFD9] py-6' >Custom neon LED stickers bring your unique designs to life, adding style and energy-efficient lighting.</p>

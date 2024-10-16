@@ -13,6 +13,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { CiTwitter } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
+import KtmHero from './KtmHero';
 
 
 
@@ -21,6 +22,8 @@ import { MdOutlineEmail } from "react-icons/md";
 const CustomizeLayout = () => {
     return (
         <>
+
+            <KtmHero />
             <CustomizeNav />
 
             <div className="w-full h-auto bg-[#151a2b] py-8">
@@ -54,26 +57,27 @@ const CustomizeLayout = () => {
 
 
 
-                            <div className="w-[25%]">
-                                <div className="w-full h-auto text-[#FFFFFF]  px-[10px]">
+                            <div className="w-[25%] bg-[#252939] rounded-lg pt-4">
+                                <div className="w-full h-auto text-[#FFFFFF]  px-[30px]">
 
-                                    <p className='text-center font-aileron py-2 text-[20px] font-normal border-white border-b-[1px]'>Customize Project</p>
-                                    <div className="relative  flex justify-center py-2">
+                                    <p className=' font-aileron py-1 text-[20px] font-medium'>Customize Project</p>
+                                    <hr className='mb-4' />
+                                    <div className="relative  flex justify-center py-3">
                                         <input type="text" placeholder='Search' className=' w-full h-full rounded-[20px] px-9 text-[#FFFFFF] bg-[#151a2b] border-2 py-[8px] font-aileron pr-7' />
-                                        <CiSearch className='absolute left-3  top-4 text-[#FFFFFF] bold text-[20px]' />
+                                        <CiSearch className='absolute left-3  top-5 text-[#FFFFFF] bold text-[20px]' />
 
 
                                     </div>
 
-                                    <p className='border-b-2 py-2 font-aileron'>Choose Assets</p>
-
+                                    <p className=' py-2 font-aileron'>Choose Assets</p>
+                                    <hr />
 
                                     <div className="flex flex-col py-3">
 
-                                        <Custom_Number name="Select your font" />
-                                        <Custom_Number name="Type your text" />
-                                        <Custom_Number name="Mix your colours" />
-                                        <Custom_Number name="Create your design" />
+                                        <Custom_Number name="Select your font" number="1" />
+                                        <Custom_Number name="Type your text" number="2" />
+                                        <Custom_Number name="Mix your colours " number="3" />
+                                        <Custom_Number name="Create your design" number="4" />
 
 
                                     </div>
@@ -82,7 +86,7 @@ const CustomizeLayout = () => {
                         </div>
 
 
-                        <div className="flex justify-center my-4 font-aileron ">
+                        <div className="flex justify-center my-4 font-aileron py-3 ">
                             <button type="button" className='bg-[#FF904E] flex gap-2 items-center pl-4 pr py-1 rounded-3xl'>
                                 <p className='text-white  font-aileron text-[16px] '>Customize Your Design</p>
                                 <div className='bg-white rounded-3xl ml-5'>
@@ -101,7 +105,7 @@ const CustomizeLayout = () => {
                         <div className="w-full h-auto py-4 my-4">
 
 
-                            <div className="flex items-center flex-col">
+                            <div className="flex items-center flex-col py-6">
                                 <div className="w-[218px] h-[165px]">
                                     <img src={ktmdecor} alt="img" className='w-full h-full object-cover' />
                                 </div>
@@ -112,7 +116,7 @@ const CustomizeLayout = () => {
 
                                 <div className="flex gap-2 items-center my-3">
                                     <div className='p-2 rounded-2xl bg-white'>
-                                    <IoIosCall className='text-red-500' />
+                                        <IoIosCall className='text-red-500' />
                                     </div>
 
                                     <p className='font-aileron text-white font-normal text-[16px]'>+977-9845956700 | +977-9845926945</p>
@@ -128,7 +132,7 @@ const CustomizeLayout = () => {
 
                                 </ul>
 
-                                
+
 
                             </div>
 

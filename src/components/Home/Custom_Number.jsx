@@ -4,9 +4,9 @@ const Custom_Number = (props) => {
     return (
         <>
 
-            <div className="flex gap-3 font-aileron py-3">
-                <p className='text-[#FF904E] bg-white px-[6px] py-[2px] rounded-xl text-[16px] bold'>01</p>
-                <p className='text-[14px] '>{props.name}</p>
+            <div className="flex gap-3 font-aileron py-3 items-center">
+                <p className='text-[#FF904E] bg-white px-[13px] py-[5px] rounded-[30px] text-[16px] semibold'>{props.number}</p>
+                <p className='text-[14px] font-aileron'>{props.name}</p>
             </div>
 
         </>

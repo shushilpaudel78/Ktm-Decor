@@ -23,33 +23,38 @@ const CustomizeLayout = () => {
 
 
             <CustomizeNav />
+
             <div className="w-full  h-auto bg-[#010619]">
 
 
-                <div className="w-full h-auto bg-[#151a2b]  py-8 rounded-b-[350px] ">
+                <div className="w-full h-auto bg-[#151a2b]  py-8 rounded-b-[350px] md:rounded-none ">
 
                     <div className="h-auto w-[1200px] m-auto">
 
                         <div className="w-full h-auto">
 
 
-                            <div className="flex items-center flex-col text-[#FFFFFF] font-aileron">
-                                <div className='relative flex flex-col '>
-                                    <div className="absolute w-[12px] h-[40px] bg-[#FF904E] top-[96px] left-[262px]"></div>
-                                    <h1 className='text-[80px]  font-bold w-[90%] leading-[88px] text-center text-white '>customize your Ideas</h1>
+                            <div className="flex items-center flex-col text-[#FFFFFF] font-aileron ">
+
+                            
+
+                                <div className='flex justify-center relative '>
+                                    <div className="absolute w-[12px] h-[40px] bg-[#FF904E] top-[96px] left-[302px]"></div>
+                                    <h1 className='text-[80px]  text-center font-bold w-[90%] leading-[88px] text-cente text-[#FFFFFF] md:w-full line-clamp-2'>customize your Ideas</h1>
                                 </div>
-                                <p className='font-aileron w-[52%] text-[16px] text-[#FFFFFFD9] py-2' >Custom neon LED stickers bring your unique designs to life, adding style and energy-efficient lighting.</p>
+
+                                <p className='font-aileron w-[52%] text-[16px] text-[#FFFFFFD9] text-center py-4' >Custom neon LED stickers bring your unique designs to life, adding style and energy-efficient lighting.</p>
 
                             </div>
 
 
 
-                            <div className="flex mb-6">
+                            <div className="flex mb-6 flex-wrap">
 
 
-                                <div className="w-[75%]">
-                                    <div className="w-full h-[678px]">
-                                        <img src={twofingure} alt="image" className='w-full h-full object-fill' />
+                                <div className="w-[75%] md:w-full">
+                                    <div className="w-full h-[678px] md:h-[500px]">
+                                        <img src={twofingure} alt="image" className='w-full h-full object-cove' />
 
                                     </div>
                                 </div>
@@ -99,7 +104,6 @@ const CustomizeLayout = () => {
 
                 </div>
             </div>
-
 
 
             <CustomInfo />

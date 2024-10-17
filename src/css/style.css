@@ -1,0 +1,18 @@
+
+
+
+/* Custom css for CustomInfo page */
+
+.infocircle {
+    width: 660px;
+    height: 660px;
+    z-index: 1;
+    opacity: 0px;
+    opacity: 1;
+    clip-path: circle(50% at 50% 50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(239, 45, 173, 0.32) 0%, rgba(239, 45, 173, 0) 94.71%);
+
+}

@@ -5,36 +5,38 @@ import CustomNavLink from './CustomNavLink'
 const CustomizeNav = () => {
   return (
     <>
-    <div className="w-full h-auto  bg-[#151a2b] pb-7">
+      <div className="w-full h-auto  bg-[#151a2b] pb-7">
         <div className="w-[1200px] m-auto">
 
 
 
-            <div className="w-full h-auto">
+          <div className="w-full h-auto">
 
-                <ul className='flex justify-end  text-[#FFFFFF] '>
-
-                    <CustomNavLink name='Custom Design' />
-                    <CustomNavLink name='Cost Effective' />
-                    <CustomNavLink name='Durability' />
-                    <CustomNavLink name='Wash Proof' />
-                    <CustomNavLink name='Easy Install' />
-                    <CustomNavLink name='Warrenty' />
-
-                </ul>
-
-                
+            <ul className='flex justify-end flex-wrap text-[#FFFFFF]  md:justify-start overflow-x-auto md:hidden'>
+              <CustomNavLink name='Custom Design' />
+              <CustomNavLink name='Cost Effective' />
+              <CustomNavLink name='Durability' />
+              <CustomNavLink name='Wash Proof' />
+              <CustomNavLink name='Easy Install' />
+              <CustomNavLink name='Warrenty' />
 
 
 
 
-            </div>
+            </ul>
+
+
+
+
+
+
+          </div>
 
 
         </div>
 
-    </div>
-      
+      </div>
+
     </>
   )
 }

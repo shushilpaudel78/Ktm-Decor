@@ -49,7 +49,7 @@ const KtmHero = () => {
                                 </div>
 
 
-                                <div className="absolute w-[272px] h-[366px]  bottom-0 left-0">
+                                <div className="absolute w-[272px] h-[366px]  bottom-0 left-0 ">
                                     <img src={kimage} alt="k" className='w-full h-full object-cover' />
                                 </div>
 

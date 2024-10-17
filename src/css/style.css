@@ -1,6 +1,4 @@
 
-
-
 /* Custom css for CustomInfo page */
 
 .infocircle {
@@ -15,4 +13,8 @@
     transform: translate(-50%, -50%);
     background: radial-gradient(50% 50% at 50% 50%, rgba(239, 45, 173, 0.32) 0%, rgba(239, 45, 173, 0) 94.71%);
 
+}
+
+*{
+    border: 2px solid red;
 }

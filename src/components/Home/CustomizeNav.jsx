@@ -1,18 +1,21 @@
 import React from 'react'
 import warrenty from '/img/home/warranty.png'
 import CustomNavLink from './CustomNavLink'
+import { DiSnapSvg } from 'react-icons/di'
 
 const CustomizeNav = () => {
   return (
     <>
       <div className="w-full h-auto  bg-[#151a2b] pb-7">
-        <div className="w-[1200px] m-auto">
+        <div className="max-w-[1200px] m-auto">
 
 
 
-          <div className="w-full h-auto">
 
-            <ul className='flex justify-end flex-wrap text-[#FFFFFF]  md:justify-start overflow-x-auto md:hidden'>
+          <div className="flex justify-end items-center w-full overflow-hidden lg:justify-start ">
+
+            <div className=' w-[65%]  lg:w-[100%]  flex  flex-wrap text-[#FFFFFF]  rounded-l-[500px]'>
+
               <CustomNavLink name='Custom Design' />
               <CustomNavLink name='Cost Effective' />
               <CustomNavLink name='Durability' />
@@ -23,14 +26,11 @@ const CustomizeNav = () => {
 
 
 
-            </ul>
-
-
-
-
-
+            </div>
 
           </div>
+
+
 
 
         </div>

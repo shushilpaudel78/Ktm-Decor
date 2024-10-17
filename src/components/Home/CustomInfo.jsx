@@ -16,13 +16,13 @@ const CustomInfo = () => {
                 <div className="max-w-[1200px] m-auto ">
 
 
-                    <div className="w-full h-auto py-[120px] ">
+                    <div className="w-full h-auto py-[120px] sm:py-5 ">
 
 
-                        <div className="flex items-center flex-col py-6  relative z-20 ">
+                        <div className="flex items-center flex-col py-6 relative z-20 ">
 
                             <div className="absolute infocircle "></div>
-                            <div className="w-[218px] h-[165px] my-4">
+                            <div className="w-[218px] h-[165px] my-4 sm:my-4">
                                 <img src={ktmdecor} alt="img" className='w-full h-full object-cover' />
                             </div>
 

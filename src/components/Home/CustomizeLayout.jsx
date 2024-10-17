@@ -1,6 +1,6 @@
 import React from 'react'
 import CustomizeNav from './CustomizeNav'
-import twofingure from '/img/home/two_fingure.png'
+import twofingure from '/img/home/sp.png'
 import CustomFooter from './CustomFooter';
 import Custom_Number from './Custom_Number';
 import CustimizeButton from '../Button/CustimizeButton';
@@ -25,8 +25,8 @@ const CustomizeLayout = () => {
             <CustomizeNav />
 
             <div className="w-full  h-auto bg-[#010619] ">
-                <div className="w-full h-auto bg-[#151a2b]  py-8 rounded-b-[350px] md:rounded-none ">   
-                    <div className="h-auto max-w-[1200px] m-auto">
+                <div className="w-full h-auto bg-[#151a2b]  py-8 rounded-b-[350px] md:rounded-none ">
+                    <div className=" max-w-[1200px] m-auto">
 
 
 
@@ -47,10 +47,10 @@ const CustomizeLayout = () => {
 
 
 
-                            <div className="flex mb-6 flex-wrap">
+                            <div className="flex mb-6 flex-wrap ">
 
-                                <div className="w-[75%] md:w-[100%]">
-                                    <div className="w-full h-[678px] sm:h-[300px] md:h-[500px]">
+                                <div className="w-[75%] lg:w-[100%]">
+                                    <div className="w-full h-[678px] sm:h-[300px] md:h-[500px] overflow-hidden rounded-bl-[250px] ">
                                         <img src={twofingure} alt="image" className='w-full h-full object-fill' />
                                     </div>
                                 </div>
@@ -61,13 +61,25 @@ const CustomizeLayout = () => {
                                         <p className=' font-aileron py-1 text-[20px] font-medium'>Customize Project</p>
                                         <hr className='mb-4 border-t w-[80%]' />
 
-                                        <div className="relative  flex justify-center py-3">
-                                            <input type="text" placeholder='Search' className=' w-full h-full rounded-[20px] px-9 text-[#FFFFFF] bg-[#151a2b] border-2 py-[8px] font-aileron pr-7' />
+                                        {/* <div className="relative  flex justify-center py-3 sm:w-[80%]">
+                                            <input type="text" placeholder='Search' className=' w-full h-full  rounded-[20px] px-9 text-[#FFFFFF] bg-[#151a2b] border-2 py-[8px] font-aileron pr-7' />
                                             <CiSearch className='absolute left-3  top-5 text-[#FFFFFF] bold text-[20px]' />
+                                        </div> */}
+
+                                        <div className='flex justify-start items-center rounded-[20px] text-white bg-[#151a2b] border-2'>
+                                            <div className='pl-2'>
+                                                <CiSearch className=' text-[#FFFFFF] bold text-[20px]' />
+                                            </div>
+                                            <div>
+                                                <input type="text" placeholder='Search' className=' w-full h-full outline-none  rounded-[20px] px-2 text-[#FFFFFF] bg-transparent  py-[8px] font-aileron pr-7' />
+
+                                            </div>
+
+
                                         </div>
 
                                         <p className=' py-2 font-aileron'>Choose Assets</p>
-                                        <hr className='border-t w-[70%]'  />
+                                        <hr className='border-t w-[70%]' />
 
                                         <div className="flex flex-col py-3">
                                             <Custom_Number name="Select your font" number="1" />

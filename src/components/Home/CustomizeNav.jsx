@@ -6,7 +6,7 @@ import { DiSnapSvg } from 'react-icons/di'
 const CustomizeNav = () => {
   return (
     <>
-      <div className="w-full h-auto  bg-[#151a2b] pb-7">
+      <div className="w-full h-auto  bg-[#151a2b] pb-7 sm:pb-0">
         <div className="max-w-[1200px] m-auto">
 
 

@@ -10,8 +10,6 @@ const CustomizeNav = () => {
         <div className="max-w-[1200px] m-auto">
 
 
-
-
           <div className="flex justify-end items-center w-full overflow-hidden lg:justify-start ">
 
             <div className=' w-[65%]  lg:w-[100%]  flex  flex-wrap text-[#FFFFFF]  rounded-l-[500px]'>
@@ -22,9 +20,6 @@ const CustomizeNav = () => {
               <CustomNavLink name='Wash Proof' />
               <CustomNavLink name='Easy Install' />
               <CustomNavLink name='Warrenty' />
-
-
-
 
             </div>
 

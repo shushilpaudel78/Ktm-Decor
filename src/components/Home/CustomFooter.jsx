@@ -5,7 +5,7 @@ const CustomFooter = () => {
     return (
         <>
 
-            <div className="w-full h-auto bg-[#1f2435] py-6 px-[10px]">
+            <div className="w-full h-auto bg-[#1f2435] py-6 px-[10px] overflow-hidden">
                 <div className="max-w-[1200px] m-auto">
 
                     <div className="flex text-white py-4 items-center flex-wrap ">

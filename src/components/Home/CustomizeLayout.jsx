@@ -6,6 +6,9 @@ import Custom_Number from './Custom_Number';
 import CustimizeButton from '../Button/CustimizeButton';
 import CustomInfo from './CustomInfo';
 import { CiSearch } from "react-icons/ci";
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import { useState } from 'react';
+
 
 // import KtmHero from './KtmHero';
 // import Partial_hero from './Partial_hero';
@@ -14,7 +17,35 @@ import { CiSearch } from "react-icons/ci";
 
 
 
+
+
+
 const CustomizeLayout = () => {
+
+
+    const [inputvalue, setInputvalue] = useState()
+
+
+    const inputChange = (event) => {
+
+        setInputvalue(event.target.value)
+
+
+
+    }
+
+
+
+    const [dtext] = useTypewriter({
+        words:['Hello I am a {inputvalue}', 'Hello I am a Designer', 'Hello  I am shushil'],
+        loop:{},
+        typeSpeed:200,
+        deleteSpeed:500,
+    })
+
+
+
+
     return (
         <>
 
@@ -50,9 +81,20 @@ const CustomizeLayout = () => {
                             <div className="flex mb-6 flex-wrap ">
 
                                 <div className="w-[75%] lg:w-[100%]">
-                                    <div className="w-full h-[678px] sm:h-[300px] md:h-[500px] overflow-hidden rounded-bl-[250px] ">
-                                        <img src={twofingure} alt="image" className='w-full h-full object-fill' />
+                                    <div className="w-full h-auto relative">
+                                        <p className='absolute inset-0 m-auto w-1/3 h-2/3 text-[40px]  text-red-600 font-aileron font-bold uppercase'>
+                                            {dtext}
+                                            {inputvalue}
+                                            <span><Cursor /></span>
+                                           
+                                        </p>
+
+                                        <div className="w-full h-[678px] sm:h-[300px] md:h-[500px] overflow-hidden rounded-bl-[250px] ">
+                                            <img src={twofingure} alt="image" className='w-full h-full object-fill' />
+                                        </div>
+
                                     </div>
+
                                 </div>
 
                                 <div className="w-[25%]  lg:w-[100%] bg-gradient-to-b from-[#252939] to-[#151a2b] rounded-tr-[10px] pt-4 rounded-b-[140px]">
@@ -70,8 +112,8 @@ const CustomizeLayout = () => {
                                             <div className='pl-2'>
                                                 <CiSearch className=' text-[#FFFFFF] bold text-[20px]' />
                                             </div>
-                                            <div>
-                                                <input type="text" placeholder='Search' className=' w-full h-full outline-none  rounded-[20px] px-2 text-[#FFFFFF] bg-transparent  py-[8px] font-aileron pr-7' />
+                                            <div className=' w-full sm:w-[80%]'>
+                                                <input type="text" value={inputvalue} onChange={inputChange} placeholder='Search' className=' w-full h-full outline-none  rounded-[20px] px-2 text-[#FFFFFF] bg-transparent  py-[8px] font-aileron pr-7' />
 
                                             </div>
 

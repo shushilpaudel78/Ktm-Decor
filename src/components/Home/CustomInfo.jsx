@@ -16,7 +16,7 @@ const CustomInfo = () => {
                 <div className="max-w-[1200px] m-auto ">
 
 
-                    <div className="w-full h-auto py-[120px] sm:py-5 ">
+                    <div className="w-full h-auto py-[120px] sm:py-5  overflow-hidden">
 
 
                         <div className="flex items-center flex-col py-6 relative z-20 ">

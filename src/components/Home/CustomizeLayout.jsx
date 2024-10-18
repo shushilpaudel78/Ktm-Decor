@@ -24,23 +24,17 @@ const CustomizeLayout = () => {
 
 
     const [inputvalue, setInputvalue] = useState()
-
-
     const inputChange = (event) => {
         setInputvalue(event.target.value)
 
     }
 
-
-
     const [dtext] = useTypewriter({
-        words:['Good Morning Everybody', ' I am  Designer', 'I am Developer'],
+        words:['Good Morning Everyone', ' I am a Designer', 'I am a Developer'],
         loop:{},
         typeSpeed:100,
         deleteSpeed:40,
     })
-
-
 
 
     return (

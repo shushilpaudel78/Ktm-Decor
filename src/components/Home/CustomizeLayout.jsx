@@ -27,20 +27,17 @@ const CustomizeLayout = () => {
 
 
     const inputChange = (event) => {
-
         setInputvalue(event.target.value)
-
-
 
     }
 
 
 
     const [dtext] = useTypewriter({
-        words:['Hello I am a {inputvalue}', 'Hello I am a Designer', 'Hello  I am shushil'],
+        words:['Good Morning Everybody', ' I am  Designer', 'I am Developer'],
         loop:{},
-        typeSpeed:200,
-        deleteSpeed:500,
+        typeSpeed:100,
+        deleteSpeed:40,
     })
 
 
@@ -82,9 +79,9 @@ const CustomizeLayout = () => {
 
                                 <div className="w-[75%] lg:w-[100%]">
                                     <div className="w-full h-auto relative">
-                                        <p className='absolute inset-0 m-auto w-1/3 h-2/3 text-[40px]  text-red-600 font-aileron font-bold uppercase'>
-                                            {dtext}
-                                            {inputvalue}
+                                        <p className='absolute  inset-0 m-auto w-1/3 h-1/2 text-[40px]  text-[#ffff] font-aileron font-bold uppercase'>
+                                           <span>{inputvalue}</span>
+                                           <span style={{color:'red'}}> {dtext}</span>
                                             <span><Cursor /></span>
                                            
                                         </p>
